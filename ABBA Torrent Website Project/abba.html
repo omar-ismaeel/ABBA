@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<html>
+<style>
+#div1 {
+    margin: auto;
+    width: 50%;
+   
+    padding: 200px;
+}
+
+.checkboxes {
+
+padding-right:10px;
+
+}
+</style>
+<body>
+<div id="div1" align="center">
+<link rel="stylesheet" href="cyborg.css">
+
+    <form class="form-inline my-2 my-lg-0" method="GET" action="search.php">
+      <input class="form-control mr-sm-2" type="textfield" name="query" size=42>
+
+<br>
+<div class="form-group">
+    <select class="custom-select" name="type">
+      <option selected>All</option>
+      <option>Audio</option>
+      <option>Applications</option>
+	    <option>Video</option>
+      <option>Games</option>
+      <option>Others</option>
+
+    </select>
+	</div>
+
+<button class="btn btn-secondary my-2 my-sm-0" type="submit" width=100px>Search</button>
+</form>
+</div>
+</div>
+</body>
+</html>

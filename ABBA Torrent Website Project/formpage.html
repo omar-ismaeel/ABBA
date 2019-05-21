@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="cyborg.css">
+<html>
+<body>
+<form method="POST" action="addtorrent.php" width="75%">
+  
+    <legend>Add New Torrent</legend>
+   
+    <div class="form-group">
+      <label>Title:</label>
+      <input type="textfield" class="form-control" name="title">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Name:</label>
+      <input type="textfield" class="form-control"  name="username">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleSelect1">Type:</label>
+      <select class="form-control" id="exampleSelect1" name="type">
+        <option>Audio</option>
+        <option>Applications</option>
+        <option>Games</option>
+        <option>Others</option>
+        <option>Video</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">Magnet:</label>
+      <input type="textfield" class="form-control"  name="magnet">
+    </div>
+  
+    <div class="form-group">
+      <label for="exampleTextarea">Description:</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3" name="description"></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  
+</form>
+</body>
+</html>
